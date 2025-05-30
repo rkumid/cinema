@@ -1,0 +1,125 @@
+/* @media (max-width: 1440px){}        *//* noutbuk */
+/* @media (max-width: 1366px){}        *//* noutbuk */
+/* @media (max-width: 1320px){}        *//* noutbuk */
+/* @media (max-width: 1290px){}       noutbuk */
+@media (max-width: 1140px){
+    .video__content {
+        background: linear-gradient(90deg, #DEF7FF 0%, #F4FCFF 26.36%, rgba(255, 255, 255, 0) 100.72%);
+    }
+}       /* noutbuk */
+@media (max-width: 1100px) {
+    .films__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .collections__cards {
+        overflow: auto;
+        scroll-snap-type: x mandatory;
+        gap: 30px;
+    }
+
+    .collections__card {
+        flex-shrink: 0;
+        scroll-snap-align: center;
+    }
+
+    .video__content {
+        background: linear-gradient(90deg, #DEF7FF 0%, #F4FCFF 20.36%, rgba(255, 255, 255, 0) 100.72%);
+    }
+}      /* iped */
+@media (max-width: 800px) {
+    .series__cards {
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(5,1fr);
+    }
+    .series__card:nth-child(2) {
+        grid-row: 2 span;
+        grid-column: 2 span;
+    }
+
+    .series__card:nth-child(3) {
+        grid-row: 2 span;
+        grid-column: 2 span;
+    }
+
+    .series__card:nth-child(4) {
+        grid-row: 2 span;
+        grid-column: 2 span;
+    }
+
+    .series__card:nth-child(5) {
+        grid-row: 2 span;
+        grid-column: 2 span;
+    }
+
+    .series__card:nth-child(6) {
+        grid-row: 2 span;
+        grid-column: 4 span;
+    }
+
+}       /* iped */
+/* @media (max-width: 768px){}         *//* iped */ 
+@media (max-width: 736px){
+    .header__banner {
+        object-position: 77%;
+    }
+}         /* phone */
+/* @media (max-width: 684px){}         *//* phone */
+/* @media (max-width: 667px){}         *//* phone */ 
+@media (max-width: 576px){
+    .series__cards {
+        grid-template-columns: repeat(1fr);
+        grid-template-rows: repeat(6,1fr);
+    }
+    .series__card:nth-child(2), .series__card:nth-child(3), .series__card:nth-child(4), .series__card:nth-child(5), .series__card:nth-child(6) {
+        grid-row: 2 span;
+        grid-column: 4 span;
+    }
+
+    .video__content img {
+        width: 50%;
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .nav__line {
+        position: absolute;
+        width: 30px;
+        height: 1px;
+        background-color: #fff;
+    }
+
+    .nav__menyu {
+        position: relative;
+        margin-right: 25px;
+    }
+
+    .nav__line::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 1px;
+        background-color: #fff;
+        bottom:-10px;
+        left: 0;
+    }
+
+    .nav__line::before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 1px;
+        background-color: #fff;
+        top:-10px;
+        left: 0;
+    }
+
+}        /* phone */
+/* @media (max-width: 414px){}         *//* phone */
+/* @media (max-width: 412px){}         *//* phone */
+/* @media (max-width: 360px){}         *//* phone */
+/* @media (max-width: 320px){}         *//* phone */
